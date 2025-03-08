@@ -19,9 +19,42 @@ PHP: Version >= 8.0
 MySQL: Version 10.4.32-MariaDB 
 
 Project Structure
-includes/ - Contains configuration and core functionalities.
-assets/ - CSS, JS, and other static files.
-index.php - Main entry point for the application.
+  includes/ - Contains configuration and core functionalities.
+  assets/ - CSS, JS, and other static files.
+  index.php - Main entry point for the application.
+
+SQL Queries
+  Here are the types of SQL queries implemented in the project:
+
+  Projection Query:  
+    File: view_user.php
+    This query selects specific columns (attributes) from a table to be displayed in the application.
+    Selection Query:
+  
+    File: index.php
+    This query selects specific rows (records) from a table that satisfy certain conditions.
+    Join Query:
+  
+    File: view_courses.php, Submission.php
+    This query joins the Courses and Users tables to find the names of all teachers associated with a specific course.
+    Division Query:
+  
+  
+  Aggregation Query:  
+    File: view_user.php
+    This query performs aggregation operations like COUNT, SUM, AVG, MIN, or MAX on selected data.
+    
+  Nested Aggregation with Group-By:  
+    File: view_user.php
+    This query combines aggregation with grouping data, using GROUP BY to organize rows into groups before applying aggregate functions.
+ 
+  Delete Operation:  
+    File: view_question.php
+    This query is used to delete specific rows from a table, typically when a user deletes a question or record.
+  
+  Update Operation:  
+    File: (File name not specified, but can be inferred)
+    This query is used to update specific records in a table, modifying existing data based on certain conditions.
 
 <img width="591" alt="erd" src="https://github.com/user-attachments/assets/197f12fd-57a7-4230-abc0-2d8862e6f092" />
 
