@@ -23,5 +23,8 @@ includes/ - Contains configuration and core functionalities.
 assets/ - CSS, JS, and other static files.
 index.php - Main entry point for the application.
 
+<img width="591" alt="erd" src="https://github.com/user-attachments/assets/197f12fd-57a7-4230-abc0-2d8862e6f092" />
+
+
 ![alt text](https://github.com/tarandeepk02/learnhub/blob/main/erd.PNG?raw=true)
 
