@@ -1,12 +1,15 @@
 **Learn Hub: Web-Based Learning Management System (LMS):** 
 Learn Hub is a web-based learning management system (LMS) designed to manage and track quizzes, courses, and user performance. The system includes different portals for students, teachers, and administrators, each with its own set of features.
+
 **Key Features:**
+
 Student Portal: Students can take quizzes, track their performance, and enroll in courses.
 Teacher Portal: Teachers can create courses and quizzes for students.
 Admin Portal: Admin can monitor and manage users.
 This project uses PHP for the backend, Bootstrap for the frontend, and MySQL (MariaDB) for the relational database.
 
 **Installation Instructions**
+
 Step 1: Upload the Files: Upload the learnhubpro.zip file to your xampp/htdocs directory.
 
 Step 2: Set Up the Database: Open phpMyAdmin by visiting localhost/phpmyadmin in your browser. Import the learnhubpro.sql file provided into the database.
@@ -20,15 +23,18 @@ Step 5: You're Good to Go!
 You should now be able to access and use the Learn Hub system.
 
 **Dependencies**
+
 PHP: Version >= 8.0
 MySQL: Version 10.4.32-MariaDB 
 
 **Project Structure**
+
   includes/ - Contains configuration and core functionalities.
   assets/ - CSS, JS, and other static files.
   index.php - Main entry point for the application.
 
 **SQL Queries**
+
   Here are the types of SQL queries implemented in the project:
 
   Projection Query:  
@@ -64,6 +70,7 @@ MySQL: Version 10.4.32-MariaDB
     This query is used to update specific records in a table, modifying existing data based on certain conditions.
 
 **HERE IS ERD (Entity Relationship Diagram):**
+
 <img width="591" alt="erd" src="https://github.com/user-attachments/assets/197f12fd-57a7-4230-abc0-2d8862e6f092" />
 
 
