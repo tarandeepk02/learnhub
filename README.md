@@ -1,3 +1,4 @@
+Learn Hub: Web-Based Learning Management System (LMS): 
 Learn Hub is a web-based learning management system (LMS) designed to manage and track quizzes, courses, and user performance. The system includes different portals for students, teachers, and administrators, each with its own set of features.
 Key Features:
 Student Portal: Students can take quizzes, track their performance, and enroll in courses.
@@ -29,17 +30,19 @@ SQL Queries
   Projection Query:  
     File: view_user.php
     This query selects specific columns (attributes) from a table to be displayed in the application.
-    Selection Query:
   
+  Selection Query:  
     File: index.php
     This query selects specific rows (records) from a table that satisfy certain conditions.
-    Join Query:
   
+  Join Query:  
     File: view_courses.php, Submission.php
     This query joins the Courses and Users tables to find the names of all teachers associated with a specific course.
-    Division Query:
   
-  
+  Division query: 
+    File: view_courses.php
+    Method: Find users S such that There is no courses C Which is not enrolled by S
+
   Aggregation Query:  
     File: view_user.php
     This query performs aggregation operations like COUNT, SUM, AVG, MIN, or MAX on selected data.
