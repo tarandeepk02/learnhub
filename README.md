@@ -22,3 +22,6 @@ Project Structure
 includes/ - Contains configuration and core functionalities.
 assets/ - CSS, JS, and other static files.
 index.php - Main entry point for the application.
+
+![alt text](https://github.com/tarandeepk02/learnhub/blob/main/erd.PNG?raw=true)
+
